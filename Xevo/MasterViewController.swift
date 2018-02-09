@@ -7,11 +7,19 @@
 //
 
 import UIKit
+import FacebookLogin
 
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
+    
+    func viewDidLoad() {
+        let loginButton = LoginButton(readPermissions: [ .publicProfile ])
+        loginButton.center = view.center
+        
+        view.addSubview(loginButton)
+    }
 
 
     override func viewDidLoad() {

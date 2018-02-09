@@ -15,6 +15,13 @@
 		FF0CA39A202D43AC00E68078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA398202D43AC00E68078 /* LaunchScreen.storyboard */; };
 		FF0CA3A5202D43AC00E68078 /* XevoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0CA3A4202D43AC00E68078 /* XevoTests.swift */; };
 		FF0CA3B0202D43AC00E68078 /* XevoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0CA3AF202D43AC00E68078 /* XevoUITests.swift */; };
+		FF0CA3BE202D47F300E68078 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA3BD202D47F300E68078 /* Storyboard.storyboard */; };
+		FF0CA3C1202D4BA500E68078 /* Xevo 'X'.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA3C0202D4BA500E68078 /* Xevo 'X'.png */; };
+		FF0CA3C3202E336800E68078 /* facebook_icon_1429814747.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA3C2202E336800E68078 /* facebook_icon_1429814747.png */; };
+		FF0CA3C6202E384200E68078 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0CA3C5202E384100E68078 /* Bolts.framework */; };
+		FF0CA3C8202E384F00E68078 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0CA3C7202E384F00E68078 /* FBSDKCoreKit.framework */; };
+		FF0CA3CA202E385A00E68078 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0CA3C9202E385A00E68078 /* FBSDKLoginKit.framework */; };
+		FF0CA3CC202E39C200E68078 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA3CB202E39C200E68078 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		FF0CA3AB202D43AC00E68078 /* XevoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XevoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0CA3AF202D43AC00E68078 /* XevoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XevoUITests.swift; sourceTree = "<group>"; };
 		FF0CA3B1202D43AC00E68078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0CA3BD202D47F300E68078 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		FF0CA3C0202D4BA500E68078 /* Xevo 'X'.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xevo 'X'.png"; sourceTree = SOURCE_ROOT; };
+		FF0CA3C2202E336800E68078 /* facebook_icon_1429814747.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_icon_1429814747.png; sourceTree = "<group>"; };
+		FF0CA3C5202E384100E68078 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FF0CA3C7202E384F00E68078 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FF0CA3C9202E385A00E68078 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FF0CA3CB202E39C200E68078 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0CA3C6202E384200E68078 /* Bolts.framework in Frameworks */,
+				FF0CA3C8202E384F00E68078 /* FBSDKCoreKit.framework in Frameworks */,
+				FF0CA3CA202E385A00E68078 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,9 @@
 		FF0CA381202D43AB00E68078 = {
 			isa = PBXGroup;
 			children = (
+				FF0CA3CB202E39C200E68078 /* Default-568h@2x.png */,
+				FF0CA3C4202E382000E68078 /* Frameworks */,
+				FF0CA3BD202D47F300E68078 /* Storyboard.storyboard */,
 				FF0CA38C202D43AC00E68078 /* Xevo */,
 				FF0CA3A3202D43AC00E68078 /* XevoTests */,
 				FF0CA3AE202D43AC00E68078 /* XevoUITests */,
@@ -105,6 +125,8 @@
 				FF0CA393202D43AC00E68078 /* Main.storyboard */,
 				FF0CA396202D43AC00E68078 /* Assets.xcassets */,
 				FF0CA398202D43AC00E68078 /* LaunchScreen.storyboard */,
+				FF0CA3C0202D4BA500E68078 /* Xevo 'X'.png */,
+				FF0CA3C2202E336800E68078 /* facebook_icon_1429814747.png */,
 				FF0CA39B202D43AC00E68078 /* Info.plist */,
 			);
 			path = Xevo;
@@ -126,6 +148,16 @@
 				FF0CA3B1202D43AC00E68078 /* Info.plist */,
 			);
 			path = XevoUITests;
+			sourceTree = "<group>";
+		};
+		FF0CA3C4202E382000E68078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0CA3C9202E385A00E68078 /* FBSDKLoginKit.framework */,
+				FF0CA3C7202E384F00E68078 /* FBSDKCoreKit.framework */,
+				FF0CA3C5202E384100E68078 /* Bolts.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0CA39A202D43AC00E68078 /* LaunchScreen.storyboard in Resources */,
+				FF0CA3BE202D47F300E68078 /* Storyboard.storyboard in Resources */,
+				FF0CA3C1202D4BA500E68078 /* Xevo 'X'.png in Resources */,
+				FF0CA3C3202E336800E68078 /* facebook_icon_1429814747.png in Resources */,
 				FF0CA397202D43AC00E68078 /* Assets.xcassets in Resources */,
+				FF0CA3CC202E39C200E68078 /* Default-568h@2x.png in Resources */,
 				FF0CA395202D43AC00E68078 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +467,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Xevo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Xevo;
@@ -445,6 +485,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Xevo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Xevo;
