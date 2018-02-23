@@ -1,0 +1,6 @@
+framework module Pods_XevoUITests {
+  umbrella header "Pods-XevoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

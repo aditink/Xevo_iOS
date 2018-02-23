@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35D81FD4FD4D0E61FEE8363E /* Pods_XevoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D929EE7A235F2B75F26E54 /* Pods_XevoUITests.framework */; };
+		BEC95D1D9ADF6DEB4CB5C7AB /* Pods_Xevo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDFCF8DDBD9283569B0A12C /* Pods_Xevo.framework */; };
+		F79B0D678F8FA0FA265BCD8D /* Pods_XevoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83F13B891CB64919B426DE0 /* Pods_XevoTests.framework */; };
 		FF0CA38E202D43AC00E68078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0CA38D202D43AC00E68078 /* AppDelegate.swift */; };
 		FF0CA390202D43AC00E68078 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0CA38F202D43AC00E68078 /* MasterViewController.swift */; };
 		FF0CA392202D43AC00E68078 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0CA391202D43AC00E68078 /* DetailViewController.swift */; };
@@ -18,7 +21,6 @@
 		FF0CA3BE202D47F300E68078 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA3BD202D47F300E68078 /* Storyboard.storyboard */; };
 		FF0CA3C1202D4BA500E68078 /* Xevo 'X'.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA3C0202D4BA500E68078 /* Xevo 'X'.png */; };
 		FF0CA3C3202E336800E68078 /* facebook_icon_1429814747.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA3C2202E336800E68078 /* facebook_icon_1429814747.png */; };
-		FF0CA3C6202E384200E68078 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0CA3C5202E384100E68078 /* Bolts.framework */; };
 		FF0CA3C8202E384F00E68078 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0CA3C7202E384F00E68078 /* FBSDKCoreKit.framework */; };
 		FF0CA3CA202E385A00E68078 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0CA3C9202E385A00E68078 /* FBSDKLoginKit.framework */; };
 		FF0CA3CC202E39C200E68078 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0CA3CB202E39C200E68078 /* Default-568h@2x.png */; };
@@ -42,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046C45488F13E724FBEEAD49 /* Pods-Xevo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xevo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Xevo/Pods-Xevo.release.xcconfig"; sourceTree = "<group>"; };
+		1C7616B6BB0C9911819FD3AE /* Pods-Xevo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xevo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Xevo/Pods-Xevo.debug.xcconfig"; sourceTree = "<group>"; };
+		47D929EE7A235F2B75F26E54 /* Pods_XevoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XevoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB7EF36C7EE8FFEB0692A85 /* Pods-XevoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XevoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XevoUITests/Pods-XevoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DEE37FF1E9DC47F80CCDF5D /* Pods-XevoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XevoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XevoTests/Pods-XevoTests.release.xcconfig"; sourceTree = "<group>"; };
+		71E953C4BABE2ED8EAF5CFE3 /* Pods-XevoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XevoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XevoTests/Pods-XevoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C341369C7732F7D47C6E7605 /* Pods-XevoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XevoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XevoUITests/Pods-XevoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E83F13B891CB64919B426DE0 /* Pods_XevoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XevoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDFCF8DDBD9283569B0A12C /* Pods_Xevo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xevo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0CA38A202D43AC00E68078 /* Xevo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xevo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0CA38D202D43AC00E68078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF0CA38F202D43AC00E68078 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +70,6 @@
 		FF0CA3BD202D47F300E68078 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		FF0CA3C0202D4BA500E68078 /* Xevo 'X'.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xevo 'X'.png"; sourceTree = SOURCE_ROOT; };
 		FF0CA3C2202E336800E68078 /* facebook_icon_1429814747.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_icon_1429814747.png; sourceTree = "<group>"; };
-		FF0CA3C5202E384100E68078 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		FF0CA3C7202E384F00E68078 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FF0CA3C9202E385A00E68078 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FF0CA3CB202E39C200E68078 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -70,9 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0CA3C6202E384200E68078 /* Bolts.framework in Frameworks */,
 				FF0CA3C8202E384F00E68078 /* FBSDKCoreKit.framework in Frameworks */,
 				FF0CA3CA202E385A00E68078 /* FBSDKLoginKit.framework in Frameworks */,
+				BEC95D1D9ADF6DEB4CB5C7AB /* Pods_Xevo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79B0D678F8FA0FA265BCD8D /* Pods_XevoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D81FD4FD4D0E61FEE8363E /* Pods_XevoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37C281121C3E11F220E1038F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C7616B6BB0C9911819FD3AE /* Pods-Xevo.debug.xcconfig */,
+				046C45488F13E724FBEEAD49 /* Pods-Xevo.release.xcconfig */,
+				71E953C4BABE2ED8EAF5CFE3 /* Pods-XevoTests.debug.xcconfig */,
+				6DEE37FF1E9DC47F80CCDF5D /* Pods-XevoTests.release.xcconfig */,
+				6AB7EF36C7EE8FFEB0692A85 /* Pods-XevoUITests.debug.xcconfig */,
+				C341369C7732F7D47C6E7605 /* Pods-XevoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF0CA381202D43AB00E68078 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +128,7 @@
 				FF0CA3A3202D43AC00E68078 /* XevoTests */,
 				FF0CA3AE202D43AC00E68078 /* XevoUITests */,
 				FF0CA38B202D43AC00E68078 /* Products */,
+				37C281121C3E11F220E1038F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,7 +181,9 @@
 			children = (
 				FF0CA3C9202E385A00E68078 /* FBSDKLoginKit.framework */,
 				FF0CA3C7202E384F00E68078 /* FBSDKCoreKit.framework */,
-				FF0CA3C5202E384100E68078 /* Bolts.framework */,
+				EFDFCF8DDBD9283569B0A12C /* Pods_Xevo.framework */,
+				E83F13B891CB64919B426DE0 /* Pods_XevoTests.framework */,
+				47D929EE7A235F2B75F26E54 /* Pods_XevoUITests.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -167,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0CA3B4202D43AC00E68078 /* Build configuration list for PBXNativeTarget "Xevo" */;
 			buildPhases = (
+				53AE74D737E657B044B2F0C3 /* [CP] Check Pods Manifest.lock */,
 				FF0CA386202D43AC00E68078 /* Sources */,
 				FF0CA387202D43AC00E68078 /* Frameworks */,
 				FF0CA388202D43AC00E68078 /* Resources */,
+				51BBAD6F4018169176CB39B9 /* [CP] Embed Pods Frameworks */,
+				B92063671081A04FCC3E3A69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0CA3B7202D43AC00E68078 /* Build configuration list for PBXNativeTarget "XevoTests" */;
 			buildPhases = (
+				9469FD5F7C1A9CA973AFE719 /* [CP] Check Pods Manifest.lock */,
 				FF0CA39C202D43AC00E68078 /* Sources */,
 				FF0CA39D202D43AC00E68078 /* Frameworks */,
 				FF0CA39E202D43AC00E68078 /* Resources */,
+				2C07F2497B8588A1FFA97D1E /* [CP] Embed Pods Frameworks */,
+				E2CC463D9709941D9B9557D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0CA3BA202D43AC00E68078 /* Build configuration list for PBXNativeTarget "XevoUITests" */;
 			buildPhases = (
+				B83159DAE41DEA040A8E8209 /* [CP] Check Pods Manifest.lock */,
 				FF0CA3A7202D43AC00E68078 /* Sources */,
 				FF0CA3A8202D43AC00E68078 /* Frameworks */,
 				FF0CA3A9202D43AC00E68078 /* Resources */,
+				226BAA462C9E72ECB3D06DB7 /* [CP] Embed Pods Frameworks */,
+				47B56275922A3DDE0A5DD5B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,6 +329,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		226BAA462C9E72ECB3D06DB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XevoUITests/Pods-XevoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C07F2497B8588A1FFA97D1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XevoTests/Pods-XevoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47B56275922A3DDE0A5DD5B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XevoUITests/Pods-XevoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51BBAD6F4018169176CB39B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Xevo/Pods-Xevo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Xevo/Pods-Xevo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53AE74D737E657B044B2F0C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xevo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9469FD5F7C1A9CA973AFE719 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XevoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83159DAE41DEA040A8E8209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XevoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92063671081A04FCC3E3A69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Xevo/Pods-Xevo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CC463D9709941D9B9557D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XevoTests/Pods-XevoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF0CA386202D43AC00E68078 /* Sources */ = {
@@ -464,6 +655,7 @@
 		};
 		FF0CA3B5202D43AC00E68078 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7616B6BB0C9911819FD3AE /* Pods-Xevo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +674,7 @@
 		};
 		FF0CA3B6202D43AC00E68078 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046C45488F13E724FBEEAD49 /* Pods-Xevo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +693,7 @@
 		};
 		FF0CA3B8202D43AC00E68078 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E953C4BABE2ED8EAF5CFE3 /* Pods-XevoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +710,7 @@
 		};
 		FF0CA3B9202D43AC00E68078 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEE37FF1E9DC47F80CCDF5D /* Pods-XevoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +727,7 @@
 		};
 		FF0CA3BB202D43AC00E68078 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB7EF36C7EE8FFEB0692A85 /* Pods-XevoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +743,7 @@
 		};
 		FF0CA3BC202D43AC00E68078 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C341369C7732F7D47C6E7605 /* Pods-XevoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

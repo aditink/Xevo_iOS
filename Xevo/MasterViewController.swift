@@ -7,37 +7,35 @@
 //
 
 import UIKit
-import FacebookLogin
+import FBSDKLoginKit
+
 
 class MasterViewController: UITableViewController {
 
+   
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
-    
-    func viewDidLoad() {
-        let loginButton = LoginButton(readPermissions: [ .publicProfile ])
-        loginButton.center = view.center
+
+    @IBAction func loginfb(_ sender: Any) {
         
-        view.addSubview(loginButton)
     }
 
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        navigationItem.leftBarButtonItem = editButtonItem
-
-        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))
-        navigationItem.rightBarButtonItem = addButton
-        if let split = splitViewController {
-            let controllers = split.viewControllers
-            detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
-        }
-    }
+    let loginButton: FBSDKLoginButton = {
+        let button = FBSDKLoginButton()
+        button.readPermissions = ["email"]
+        return button
+    }()
 
     override func viewWillAppear(_ animated: Bool) {
         clearsSelectionOnViewWillAppear = splitViewController!.isCollapsed
         super.viewWillAppear(animated)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.addSubview(loginButton)
+        loginButton.center = view.center
     }
 
     override func didReceiveMemoryWarning() {
