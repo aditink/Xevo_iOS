@@ -1,0 +1,6 @@
+framework module Pods_XevoTests {
+  umbrella header "Pods-XevoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

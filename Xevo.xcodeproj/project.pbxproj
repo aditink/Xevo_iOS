@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		35D81FD4FD4D0E61FEE8363E /* Pods_XevoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D929EE7A235F2B75F26E54 /* Pods_XevoUITests.framework */; };
+		4937B85A204DF35600642607 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4937B859204DF35500642607 /* GoogleService-Info.plist */; };
+		4937B85B204DF35600642607 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4937B859204DF35500642607 /* GoogleService-Info.plist */; };
+		4937B85C204DF35600642607 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4937B859204DF35500642607 /* GoogleService-Info.plist */; };
 		BEC95D1D9ADF6DEB4CB5C7AB /* Pods_Xevo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDFCF8DDBD9283569B0A12C /* Pods_Xevo.framework */; };
 		F79B0D678F8FA0FA265BCD8D /* Pods_XevoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83F13B891CB64919B426DE0 /* Pods_XevoTests.framework */; };
 		FF0CA38E202D43AC00E68078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0CA38D202D43AC00E68078 /* AppDelegate.swift */; };
@@ -47,6 +50,7 @@
 		046C45488F13E724FBEEAD49 /* Pods-Xevo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xevo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Xevo/Pods-Xevo.release.xcconfig"; sourceTree = "<group>"; };
 		1C7616B6BB0C9911819FD3AE /* Pods-Xevo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xevo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Xevo/Pods-Xevo.debug.xcconfig"; sourceTree = "<group>"; };
 		47D929EE7A235F2B75F26E54 /* Pods_XevoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XevoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4937B859204DF35500642607 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6AB7EF36C7EE8FFEB0692A85 /* Pods-XevoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XevoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XevoUITests/Pods-XevoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DEE37FF1E9DC47F80CCDF5D /* Pods-XevoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XevoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XevoTests/Pods-XevoTests.release.xcconfig"; sourceTree = "<group>"; };
 		71E953C4BABE2ED8EAF5CFE3 /* Pods-XevoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XevoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XevoTests/Pods-XevoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 				FF0CA3C0202D4BA500E68078 /* Xevo 'X'.png */,
 				FF0CA3C2202E336800E68078 /* facebook_icon_1429814747.png */,
 				FF0CA39B202D43AC00E68078 /* Info.plist */,
+				4937B859204DF35500642607 /* GoogleService-Info.plist */,
 			);
 			path = Xevo;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0CA39A202D43AC00E68078 /* LaunchScreen.storyboard in Resources */,
+				4937B85A204DF35600642607 /* GoogleService-Info.plist in Resources */,
 				FF0CA3BE202D47F300E68078 /* Storyboard.storyboard in Resources */,
 				FF0CA3C1202D4BA500E68078 /* Xevo 'X'.png in Resources */,
 				FF0CA3C3202E336800E68078 /* facebook_icon_1429814747.png in Resources */,
@@ -318,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4937B85B204DF35600642607 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4937B85C204DF35600642607 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,12 +394,26 @@
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

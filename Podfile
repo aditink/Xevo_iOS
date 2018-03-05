@@ -6,6 +6,9 @@ target 'Xevo' do
   use_frameworks!
 
   # Pods for Xevo
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'FBSDKLoginKit'
 pod 'FacebookCore'
 pod 'FacebookLogin'
 pod 'FacebookShare'
